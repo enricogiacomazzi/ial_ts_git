@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 8px 16px;
+    background-color: whitesmoke;
+}
+
+h1, p {
+    color: #303030;
+}
+
+p {
+    font-size: 18px;
+    padding: 8px 0;
+}
