@@ -1,12 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tecnico dello Sviluppo Software - IAL Trieste</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Halo!</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente omnis, et libero debitis officiis maiores nisi neque magni quod similique? Fugiat libero autem modi ut labore quos perferendis. Suscipit, laborum.</p>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">IAL <span>Trieste</span></div>
+            <ul class="nav-links">
+                <li><a href="#info">Informazioni</a></li>
+                <li><a href="#programma">Programma</a></li>
+                <li><a href="#contatti">Sede e Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Tecnico dello Sviluppo Software</h1>
+            <p>Diventa un professionista della programmazione web e software con la formazione specialistica di IAL FVG.</p>
+            <a href="#contatti" class="btn">Richiedi Informazioni</a>
+        </div>
+    </section>
+
+    <section id="info" class="details-section">
+        <div class="details-grid">
+            <div class="detail-item">
+                <h4>Sede del Corso</h4>
+                <p>IAL Trieste</p>
+            </div>
+            <div class="detail-item">
+                <h4>Durata</h4>
+                <p>800 Ore</p>
+            </div>
+            <div class="detail-item">
+                <h4>Stage Aziendale</h4>
+                <p>Incluso</p>
+            </div>
+            <div class="detail-item">
+                <h4>Attestato</h4>
+                <p>Qualifica Professionale</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="container" id="programma">
+        <h2 class="section-title">Cosa Imparerai</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Sviluppo Front-End</h3>
+                <p>Realizzazione di interfacce web moderne e responsive utilizzando HTML5, CSS3, JavaScript e i principali framework client-side.</p>
+            </div>
+            <div class="card">
+                <h3>Sviluppo Back-End</h3>
+                <p>Progettazione della logica applicativa lato server, architetture software e gestione delle API RESTful.</p>
+            </div>
+            <div class="card">
+                <h3>Database & Dati</h3>
+                <p>Modellazione, creazione e gestione di database relazionali (SQL) e no-relazionali per la gestione persistente dei dati.</p>
+            </div>
+            <div class="card">
+                <h3>Version Control & Workflow</h3>
+                <p>Utilizzo di Git e GitHub per il controllo versione del codice e la gestione collaborativa dei progetti software.</p>
+            </div>
+            <div class="card">
+                <h3>Software Testing & Security</h3>
+                <p>Introduzione al testing del codice, al debugging e alle best practice per la sicurezza delle applicazioni web.</p>
+            </div>
+            <div class="card">
+                <h3>Stage in Azienda</h3>
+                <p>Metti in pratica le competenze acquisite lavorando direttamente all'interno delle software house del territorio.</p>
+            </div>
+        </div>
+    </main>
+
+    <section id="contatti" style="background-color: var(--light); padding: 3rem 0;">
+        <div class="container">
+            <h2 class="section-title">Sede del Corso e Contatti</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>IAL FVG - Sede di Trieste</h3>
+                    <br>
+                    <address>
+                        <strong>Indirizzo:</strong> Via Pondares, 5<br>
+                        <strong>Città:</strong> 34131 Trieste (TS)<br>
+                        <strong>Telefono:</strong> 040 672 6311<br>
+                        <strong>Email:</strong> trieste@ial.fvg.it
+                    </address>
+                </div>
+                <div>
+                    <h3>Iscrizioni e Dettagli</h3>
+                    <br>
+                    <p>Il corso è rivolto a persone occupate e disoccupate che desiderano acquisire competenze avanzate nel settore IT.</p>
+                    <br>
+                    <p>Contatta la segreteria IAL di Trieste per verificare i requisiti di accesso, l'eventuale finanziamento tramite programmi regionali (es. PIPOL/GOL) e le date di avvio delle prossime edizioni.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 IAL FVG - Corso Tecnico dello Sviluppo Software. Tutti i diritti riservati.</p>
+    </footer>
+
 </body>
 </html>
