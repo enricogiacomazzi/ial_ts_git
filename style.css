@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Forziamo sia html che body a occupare tutta l'altezza dello schermo */
+}
+
+body {
+    background: #020024;
+    background: linear-gradient(0deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background-attachment: fixed; /* Mantiene il gradiente fisso anche se la pagina scorre */
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: honeydew;
+    text-shadow: 3px;
+    text-shadow: 2px 2px 5px rgb(2, 0, 117);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h3{
+    color:aquamarine;
+    text-shadow: 2px 2px 5px rgb(2, 0, 117); 
+}
