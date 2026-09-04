@@ -27,3 +27,12 @@ h3{
     color:aquamarine;
     text-shadow: 2px 2px 5px rgb(2, 0, 117); 
 }
+
+.top {
+  width: 100%;
+  height: 293px; /* Imposta l'altezza pari a quella della tua GIF */
+  
+  background-image: url('https://cdn.pixabay.com/animation/2025/01/17/18/27/18-27-39-591_512.gif') ;
+  background-repeat: repeat-x; /* Ripete la GIF SOLO in orizzontale (sull'asse X) */
+  background-size: contain;    /* Fa in modo che la GIF mantenga le sue proporzioni nell'altezza del div */
+}
